@@ -3,6 +3,7 @@ import 'package:flutter_application_1/src/login/login2_page.dart';
 import 'package:flutter_application_1/src/login/login3_page.dart';
 import 'package:flutter_application_1/src/login/login4_page.dart';
 import 'package:flutter_application_1/src/login/login_page.dart';
+import 'package:flutter_application_1/src/register/register_page.dart';
 import 'package:flutter_application_1/src/utils/my_colors.dart';
 
 void main() {
@@ -27,9 +28,12 @@ class _MyAppState extends State<MyApp> {
         "login2": (BuildContext context) => Login2Page(),
         "login3": (BuildContext context) => Login3Page(),
         "login4": (BuildContext context) => Login4Page(),
+        "registro":  (BuildContext context) => RegisterPage(),
       },
       theme: ThemeData(
+        fontFamily: "Nimbus",
         primaryColor: MyColors.primaryColor,
+
         //useMaterial3: true,
         //colorScheme: ColorScheme.fromSeed(
         //  seedColor: Colors.blueGrey,
